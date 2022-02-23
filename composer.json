@@ -2,7 +2,7 @@
     "name": "evermienvio/hellopackage",
     "type": "library",
     "description": "Example of package",
-    "version": "dev-main",
+    "version": "1.0.0",
     "keywords": ["framework", "package", "rest", "web service", "Laravel"],
     "homepage": "http://mienvio.mx",
     "license": "MIT",
