@@ -1,0 +1,27 @@
+{
+    "name": "evermienvio/hellopackage",
+    "type": "library",
+    "description": "Example of package",
+    "version": "dev-main",
+    "keywords": ["framework", "package", "rest", "web service", "Laravel"],
+    "homepage": "http://mienvio.mx",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ever Morgan",
+            "email": "everardo@mienvio.mx",
+            "homepage": "https://github.com/EverSMorgan"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+    },
+    "autoload": {
+        "psr-4": {
+            "Project\\PackageName\\": "src/",
+        }
+    },
+    "require-dev": {
+        "monolog/monolog": "~1.0",
+    }
+}
